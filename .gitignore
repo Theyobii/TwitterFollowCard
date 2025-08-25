@@ -1,0 +1,81 @@
+# Dependencias y paquetes
+node_modules/
+npm-packages-offline-cache/
+.yarn/install-state.gz
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+
+# Entornos y variables de entorno
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Builds y distribuciones
+/dist
+/dist-ssr
+/build
+/out
+/.next
+/export
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log.*
+
+# Cache de herramientas
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.babel-cache/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing
+/coverage
+/.nyc_output
+/.jest
+
+# Paquetes de dependencias offline
+.npm-offline-cache/
+
+# Misceláneos
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+/node_repl_history
+/typings
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/cache
+.yarn/patches
+.yarn/sdks
+.yarn/versions
+*.tgz
+*.tar.gz
