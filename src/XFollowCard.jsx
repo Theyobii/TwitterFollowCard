@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function TwitterFollowCard ({children,userName, size = 100, initialIsFollowing}) {
+export function XFollowCard ({children,userName, size = 100, initialIsFollowing}) {
     const [isFollowing, setIsFollowing] = useState(initialIsFollowing)
     const avatarUrl = `https://github.com/${userName}.png?size=${size}`;
     const text = isFollowing ? 'Siguiendo' : 'Seguir'

@@ -1,21 +1,21 @@
 import './App.css'
-import { TwitterFollowCard } from './TwitterFollowCard'
+import { XFollowCard } from './XFollowCard'
 
 export function App () {
     return (
         <section className='App'>
 
-        <TwitterFollowCard userName="Theyobii">
+        <XFollowCard userName="Theyobii">
             Jonny Cabrera
-        </TwitterFollowCard>
+        </XFollowCard>
         
-        <TwitterFollowCard userName="MrTanuk" initialIsFollowing={true}>
+        <XFollowCard userName="MrTanuk" initialIsFollowing={true}>
             El papa de los helados
-        </TwitterFollowCard>
+        </XFollowCard>
         
-        <TwitterFollowCard userName="Serverket" initialIsFollowing={true}>
+        <XFollowCard userName="Serverket" initialIsFollowing={true}>
             Manuel Hernandez
-        </TwitterFollowCard>
+        </XFollowCard>
         </section>
     )
 }
