@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: mi-app-react
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
+        
